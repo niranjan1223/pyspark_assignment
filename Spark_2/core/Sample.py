@@ -43,5 +43,6 @@ active_hour.sort("active_hours").show(truncate=False)
 active_repository = df1.groupBy("torrent").agg(count("*").alias("active_repository"))
 active_repository.sort("active_repository").show(truncate=False)
 
+
 # COMMAND ----------
 
