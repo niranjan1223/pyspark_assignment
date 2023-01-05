@@ -23,6 +23,7 @@ class PysparkUnittest(unittest.TestCase):
     @classmethod
     def tearDownClass(cls):
         cls.spark.stop()
+        
 
 # COMMAND ----------
 
